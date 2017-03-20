@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println(WELCOME_MSG);
+
         String cityName = "";
         if (args.length > 0) {
             cityName = args[0];
